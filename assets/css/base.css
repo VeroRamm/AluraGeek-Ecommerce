@@ -1,0 +1,146 @@
+:root{
+    --letraColor:#464646;
+    --colorBackBoton: #2A7AE4;
+    --font:'Raleway', sans-serif;
+    --bkheader:#ffffff;
+    --bkbody:rgb(242, 243, 243);
+    --bkfooter:#EAF2FD;
+}
+html{
+    font-family:var(--font);
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    background-color: var(--bkheader);
+    margin: 20px;
+    width:90%;
+}
+.logo img{
+    width:45px;  
+}
+.espacioBusqueda{
+    display: none;
+}
+.main{
+    margin:20px;
+}
+.boton{
+    background-color: var(--colorBackBoton);
+    color:var(--bkheader);
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    width: auto;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: var(--bkfooter);
+    text-align: center;
+    width: 100%;
+    
+}
+.logo-footer{
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.logo-footer img{
+    width:50px;
+}
+
+.footer-list{
+    display:flex;
+    justify-content:center;
+    line-height: 2;
+    text-decoration: none;
+    color: var(--letraColor);
+    font-weight: 600;
+    font-size: 16px;
+}
+.contacto{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin:10px;
+}
+.formulario{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.box{
+    width:70vh;
+    margin: 0 10px 20px 10px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.iconoLista{
+    font-size:15px;
+    margin: 10px;
+    color: black;
+}
+footer p{
+    margin:10px;
+    text-align: center;
+    font-size:12px;
+    line-height: 0.1;
+}
+@media screen and (min-width: 720px) {
+    .header{
+        flex-direction: row;
+    }
+    .espacioBusqueda{
+        display: flex;
+    }
+    .cabecera{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .footer{
+        display: flex;
+        justify-content:center;
+    }
+    .footer-links img{
+        width:70px;
+    }
+    .box{
+        width:434px;
+    }
+}
+@media screen and (min-width: 1200px) {
+   
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content:space-evenly;
+        width:100%;
+       
+
+    }
+    .footer-links{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    
+    .logo-footer img{
+        width:90px;
+       
+    }
+    .box{
+        width:560px;
+    }
+}

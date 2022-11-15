@@ -1,0 +1,39 @@
+{
+  "producto": [
+    {
+      "nombre": "prod4",
+      "precio": "3456",
+      "descripcion": "dsgrgvfgf",
+      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_004.png",
+      "id": "cafeef39-401e-4e16-ba59-f7ccecec3e0a"
+    },
+    {
+      "nombre": "prod1",
+      "precio": "343654",
+      "descripcion": "aca control",
+      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_001.png",
+      "id": "2390c888-7728-48df-b00e-d113194553ce"
+    },
+    {
+      "nombre": "Maria Veronica",
+      "precio": "345",
+      "descripcion": "rgfs",
+      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_002.png",
+      "id": "d2ed585b-e335-4c93-afa9-0da00ec08a78"
+    },
+    {
+      "nombre": "control1",
+      "precio": "231",
+      "descripcion": "datos",
+      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_006.png",
+      "id": "2a98533f-065c-47ec-b5c3-ff13dbe06a49"
+    },
+    {
+      "nombre": "control2",
+      "precio": "2335",
+      "descripcion": "vcdslkfbdjk",
+      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_005.png",
+      "id": "60c8b7a1-af88-4fa7-9808-2c71dfc630bc"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "admin",
+    "version": "1.0.0",
+    "description": "Ecommerce, Challenger 4, Alura",
+    "main": "index.js",
+    "scripts": {
+      "start": "json-server --watch db.json --port 3000",
+      "test": "echo \"Error: no test specified\" && exit 1"
+}}

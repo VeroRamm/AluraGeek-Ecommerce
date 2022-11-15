@@ -1,0 +1,21 @@
+.login{
+    margin: 30px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+}
+@media screen and (min-width: 608px){
+    
+}
+@media screen and (min-width: 1200px){
+    .login{
+        margin-left: 30%;
+    }
+    .login-form{
+        width:50%;
+    }
+}

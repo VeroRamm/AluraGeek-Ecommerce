@@ -1,0 +1,71 @@
+
+.agregarProducto{
+    margin:20px;
+}
+.btnAdministrador{
+    border: 2px solid var(--colorBackBoton);
+    padding:10px;
+    color:var(--colorBackBoton);
+    margin-right: 30px;
+    text-decoration: none;
+}
+.input-container{
+    margin: 20px 0 20px 10%;
+    width:80%;
+    height: 30px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.textarea{
+    margin:20px;
+    width:100%;
+    height:100px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.27);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.agregarProducto a{
+    text-decoration: none;   
+}
+.registro{
+    margin-left: 10%;
+}
+.select{
+    margin-left: 10%;
+}
+@media screen and (min-width: 720px){
+    .agregarProducto{
+        width: 60%;
+        margin-left:25%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .agregarProducto{
+        width: 50%;
+        margin-left:25%;
+    }
+    .btnAdministrador{
+        margin-left:25%;
+    }
+    .input-container{
+        width: 60%;
+        margin-left: 15%;
+    }
+    .registro{
+        margin-left: 15%;
+    }
+    .select{
+        margin-left: 15%;
+    }
+}
