@@ -13,7 +13,7 @@ const obtenerInformacion = async () => {
   const nombre = document.querySelector("[data-nombre]");
   const precio = document.querySelector("[data-precio]");
   const descripcion = document.querySelector("[data-descripcion]");
-  const imagen = document.querySelector("[data-imagen]");
+  const imagen = "http://127.0.0.1:5500/assets/img/" + document.querySelector("[data-imagen]").value.substring(11);
 
   try {
     const producto = await clientServices.detalleCliente(id);
@@ -22,11 +22,11 @@ const obtenerInformacion = async () => {
       precio.value = producto.precio;
       descripcion.value = producto.descripcion;
       imagen.value = producto.imagen;
-    }/* else {
+    } else {
       throw new Error();
-    }*/
+    }
   } catch (error) {
-    window.location.href = "../screens/error.html";
+    /*window.location.href = "../screens/error.html";*/
   }
 };
 
@@ -40,8 +40,10 @@ formulario.addEventListener("submit", (evento) => {
   const nombre = document.querySelector("[data-nombre]").value;
   const precio = document.querySelector("[data-precio]").value;
   const descripcion = document.querySelector("[data-descripcion]").value;
-  const imagen = document.querySelector("[data-imagen]").value;
-  clientServices.actualizarCliente(nombre, precio, descripcion, imagen, id).then(() => {
+  const imagen = "http://127.0.0.1:5500/assets/img/consolas/" + document.querySelector("[data-imagen]").value.substring(11);
+  const categoria = document.querySelector("[data-categoria]").value;
+  clientServices.actualizarCliente(nombre, precio, descripcion, imagen, categoria, id).then(() => {
    alert("Edicion concluida con exito");
+     window.location.href = "../screens/lista-producto.html";
   });
 });

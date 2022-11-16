@@ -1,39 +1,148 @@
 {
   "producto": [
     {
-      "nombre": "prod4",
-      "precio": "3456",
-      "descripcion": "dsgrgvfgf",
-      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_004.png",
-      "id": "cafeef39-401e-4e16-ba59-f7ccecec3e0a"
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\starwars1.png",
+      "categoria": "Star Wars",
+      "id": "59afa1da-632b-4159-bd05-ca4526f19d94"
     },
     {
-      "nombre": "prod1",
-      "precio": "343654",
-      "descripcion": "aca control",
-      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_001.png",
-      "id": "2390c888-7728-48df-b00e-d113194553ce"
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\starwars2.png",
+      "categoria": "Star Wars",
+      "id": "1f28a744-a987-48ce-aee8-3881958fa735"
     },
     {
-      "nombre": "control1",
-      "precio": "231",
-      "descripcion": "datos",
-      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_006.png",
-      "id": "2a98533f-065c-47ec-b5c3-ff13dbe06a49"
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\starwars3.png",
+      "categoria": "Star Wars",
+      "id": "d7b623c3-38cc-4f2c-9331-a80db7e0862e"
     },
     {
-      "nombre": "control2",
-      "precio": "2335",
-      "descripcion": "vcdslkfbdjk",
-      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_005.png",
-      "id": "60c8b7a1-af88-4fa7-9808-2c71dfc630bc"
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\starwars4.png",
+      "categoria": "Star Wars",
+      "id": "4e980582-e837-46b9-ab27-ba8f6591a1cb"
     },
     {
-      "nombre": "control3",
-      "precio": "3432",
-      "descripcion": "aca control",
-      "imagen": "http://127.0.0.1:5500/assets/img/consolas/\\producto_001.png",
-      "id": "e5358863-d877-410c-b6ab-49ce8ecdf0cc"
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\starwars5.png",
+      "categoria": "Star Wars",
+      "id": "654eeb91-237b-4e4b-ac10-b27795cff4a8"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\starwars6.png",
+      "categoria": "Star Wars",
+      "id": "a99e18c6-3d1a-43cb-a83c-f1bbe717113a"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\consolas1.png",
+      "categoria": "Consolas",
+      "id": "f2f9116d-b51f-4b3e-8a14-9b0553a94944"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\consolas2.png",
+      "categoria": "Consolas",
+      "id": "14b38e07-bf6e-4dbc-aae2-ffabd58ab6c1"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\consolas3.png",
+      "categoria": "Consolas",
+      "id": "e59d6bc5-607d-4b0a-bfdb-a7d08ae84338"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\consolas4.png",
+      "categoria": "Consolas",
+      "id": "750056a7-47f5-4e60-ab02-46d06bde286c"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\consolas5.png",
+      "categoria": "Consolas",
+      "id": "7b3624eb-a364-42c8-b900-ff0dfdeeb441"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\consolas6.png",
+      "categoria": "Consolas",
+      "id": "4e547052-a01c-4a5b-b613-d4cc785c140f"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\diversos1.png",
+      "categoria": "Diversos",
+      "id": "c0269da1-764c-44eb-8ab1-1c61e8c20083"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\diversos2.png",
+      "categoria": "Diversos",
+      "id": "6bbc3b4b-2d82-43be-b147-3fea1a85bbcb"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\diversos3.png",
+      "categoria": "Diversos",
+      "id": "3a955db5-36c1-49e6-846d-fab66345ea57"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\diversos4.png",
+      "categoria": "Diversos",
+      "id": "c387ad62-ea7f-41e4-aeb4-d057b2ea63f9"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\diversos5.png",
+      "categoria": "Diversos",
+      "id": "aef1a2fe-2269-482e-9b5c-7769f6bf93fc"
+    },
+    {
+      "nombre": "producto1",
+      "precio": "60.00",
+      "descripcion": "#111111",
+      "imagen": "http://127.0.0.1:5500/assets/img/\\diversos6.png",
+      "categoria": "Diversos",
+      "id": "a4bb5153-8dea-4cc9-89bd-b2227e97b21b"
     }
   ]
 }

@@ -32,6 +32,10 @@
         <section class="card cadastro">
             <form class="flex flex--column" data-form>
                 <div class="input-container">
+                    <input name="categoria" id="categoria" class="input" type="text" placeholder="Categoria" required data-categoria/>
+                    <span class="input-menssage-error">Este campo es requerido</span>
+                </div>
+                <div class="input-container">
                     <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-nombre/>
                     <span class="input-menssage-error">Este campo es requerido</span>
                 </div>
@@ -46,14 +50,7 @@
                 <div class="input-container">
                     <input name="imagen" id="imagen" class="imagen" type="file" required data-imagen/>
                 </div> 
-                <div class="select">
-                    <label for="">Categoria</label>
-                    <select name="categoria" id="categoria" class="categoria" type="text" data-categoria/>
-                        <option value="">Star Wars</option>
-                        <option value="">Consolas</option>
-                        <option value="">Diversos</option>
-                    </select>
-                </div> 
+                
               <button type="submit" class="boton registro">Registrar</button>
             </form>
           </section>

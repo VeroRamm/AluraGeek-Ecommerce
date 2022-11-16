@@ -1,7 +1,7 @@
 import { clientServices } from "../service/client-service.js";
 
 //backticks
-const crearNuevaLinea = (nombre, precio, descripcion, imagen, id) => {
+const crearNuevaLinea = (categoria, nombre, precio, descripcion, imagen, id) => {
   const linea = document.createElement("div");
   const contenido = `
   <div class= "card">
@@ -13,6 +13,7 @@ const crearNuevaLinea = (nombre, precio, descripcion, imagen, id) => {
       <button  class="iconoLista" type="button" id="${id}"><i class="fa-solid fa-trash"></i></button>
     </li>
   </ul>
+    <h5>${categoria}</h5>
     <h4>${nombre}</h4>
     <h5>Precio: $${precio}</h5>
     <p>Descripcion: ${descripcion}</p>
@@ -39,8 +40,8 @@ const table = document.querySelector("[data-table]");
 clientServices
   .listaClientes()
   .then((data) => {
-    data.forEach(({ nombre, precio, descripcion, imagen, id }) => {
-      const nuevaLinea = crearNuevaLinea(nombre, precio, descripcion, imagen, id);
+    data.forEach(({ categoria, nombre, precio, descripcion, imagen, id }) => {
+      const nuevaLinea = crearNuevaLinea(categoria, nombre, precio, descripcion, imagen, id);
       table.appendChild(nuevaLinea);
     });
   })
