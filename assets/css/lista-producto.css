@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 10px 10px; 
-    border: 1px solid rgb(231, 37, 37);
+   
 }
 
 .card{
@@ -32,13 +32,16 @@
 }
 @media screen and (min-width: 720px){
     .crud-cards{
-        display:flex;
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 0 0;
    }
 }
 @media screen and (min-width: 1200px){
    .crud-cards{
-    grid-template-columns: repeat(3, 1fr);
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0 0;
 
 
    }
