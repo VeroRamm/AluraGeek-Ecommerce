@@ -100,6 +100,9 @@ footer p{
     font-size:12px;
     line-height: 0.1;
 }
+footer a {
+    text-decoration: none;
+}
 @media screen and (min-width: 720px) {
     .header{
         flex-direction: row;
