@@ -22,7 +22,7 @@ const relleno = `
             <input class="box" type="text" placeholder="Nombre" data-contactoNombre>
             <textarea class="box" name="" id="" cols="20" rows="5" placeholder="Escribe tu mensaje" data-contactoMensaje></textarea>
             <div id="error"></div>
-            <button class="boton"type="submit" id="fornBoton">Enviar mensaje</button>
+            <button class="boton enviar" type="submit" id="fornBoton">Enviar mensaje</button>
         </form>
     </div>
 </div>`;
