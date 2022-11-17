@@ -9,12 +9,16 @@
 html{
     font-family:var(--font);
 }
-.header{
+.header {
     display:flex;
     justify-content:space-between;
     background-color: var(--bkheader);
     margin: 20px;
     width:90%;
+}
+.logo a{
+    display: flex;
+    justify-content:space-around;
 }
 .logo img{
     width:45px;  
