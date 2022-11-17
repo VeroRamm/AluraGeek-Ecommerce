@@ -1,0 +1,44 @@
+.productoPrincipal img{
+    width: 100%;
+    object-fit:cover;
+}
+.texto{
+    margin: 10px;
+}
+.productos-contenedor{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    
+}
+.produto{
+   margin-bottom: 10px;
+   line-height: .1;
+}
+.prod5, .prod6{
+    display: none;
+}
+@media screen and (min-width: 720px){
+    .productoPrincipal{
+        height: 40vh;
+        margin: 10px 20px;
+        display:flex;
+
+    }
+    .productoPrincipal img{
+        width: 100%;
+    }
+    .productos-contenedor{
+        display:flex;
+        gap: 15px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .prod5, .prod6{
+        display: flex;
+    }
+    .producto, .similares{
+        margin: 40px;
+    }
+}
