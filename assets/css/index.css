@@ -60,15 +60,32 @@
     display:grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
-    gap: 10px 10px; 
+   gap: 10px; 
+}
+.produto img:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 @media screen and (min-width: 720px){
     .seccion-productos{
         display:flex;
         
     }
+    .general-prods{
+        margin: 0 2%;
+    }
+    .prod-holder:hover{
+        animation-duration: 2s;
+    animation-name: nav-mouse;
+    }
 }
 @media screen and (min-width: 1200px){
+    .general-prods{
+        margin: 0 9%;
+    }
     .banner img{
         height: 60vh;
     }
